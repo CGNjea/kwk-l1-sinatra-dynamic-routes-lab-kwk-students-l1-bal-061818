@@ -10,5 +10,5 @@ class App < Sinatra::Base
     @number = paramas[:number].to_i
     (number**2).to_s 
   end
-  get 
+  # get 
 end
